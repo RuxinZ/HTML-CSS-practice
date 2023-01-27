@@ -10,6 +10,7 @@ p {
   border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   margin-right: 15px;
+  vertical-align: top;
 }
 
 .image-profile {
@@ -24,13 +25,6 @@ p {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 6px;
-  margin-left: 8px;
-}
-
-.friends {
-  font-size: 16px;
-  color: rgb(90, 90, 90);
-  margin-bottom: 12px;
   margin-left: 8px;
 }
 
@@ -49,4 +43,28 @@ p {
   border-radius: 4px;
   cursor: pointer;
   vertical-align: middle;
+}
+
+.friend-row {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.friend-profile-col,
+.friends-col {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.friends {
+  font-size: 12px;
+  color: rgb(90, 90, 90);
+  margin-left: 4px;
 }
