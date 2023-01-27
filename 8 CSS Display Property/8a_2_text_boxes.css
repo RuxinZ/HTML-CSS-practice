@@ -1,0 +1,14 @@
+.input-label {
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+  border-color: rgba(100, 100, 100, 0.5);
+  border-style: solid;
+  border-radius: 3px;
+  width: 200px;
+  margin-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+}
