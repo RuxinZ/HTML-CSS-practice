@@ -1,0 +1,51 @@
+* {
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  border-radius: 8px;
+}
+
+input {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.input-firstname {
+  width: 148px;
+}
+
+.input-lastname {
+  width: 148px;
+}
+
+.input-email {
+  display: block;
+  width: 334px;
+}
+
+.button-signup {
+  display: block;
+  background-color: rgb(47, 127, 231);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 368px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.button-signup:hover {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.button-signup:active {
+  opacity: 0.8;
+}
