@@ -13,18 +13,29 @@
   margin: 20px;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
 .thumbnail-row {
   margin-bottom: 12px;
 }
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 } /* set an inline-block element to block */
 
 .profile-picture {
   width: 40px;
   height: 40px;
   border-radius: 20px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .video-title {
@@ -34,21 +45,12 @@
   margin-bottom: 12px;
 }
 
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
-}
-
 .channel-picture {
-  display: inline-block;
   width: 50px;
   vertical-align: top;
 }
 
 .video-info-div {
-  display: inline-block;
   width: 200px;
 }
 
