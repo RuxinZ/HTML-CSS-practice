@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left {
+  width: 100px;
+}
+
+.mid {
+  flex: 1;
+}
+
+.right {
+  width: 100px;
+  background-color: lightpink;
+  vertical-align: center;
+}
+
+.home {
+  font-weight: bold;
+}
+
+.search-box {
+  border: none;
+  width: 75%;
+  max-width: 700px;
+  margin-top: 12px;
+  height: 30px; /* Use this height to set the height for the header*/
+  margin-bottom: 12px;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+.Download-btn {
+  background-color: rgb(120, 82, 178);
+  border-color: white;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
