@@ -5,4 +5,29 @@
   bottom: 0;
   background-color: white;
   width: 72px;
+  z-index: 101;
+  padding-top: 5px;
+}
+
+.sidebar-option {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-option:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.sidebar-option-icon {
+  height: 25px;
+  margin-bottom: 8px;
+}
+
+.sidebar-option-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
 }

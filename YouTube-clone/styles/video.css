@@ -6,15 +6,28 @@
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
 }
 .thumbnail {
   width: 100%;
 } /* set an inline-block element to block */
 
+.video-time {
+  position: absolute;
+  bottom: 8px;
+  right: 4px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  padding: 4px;
+  border-radius: 2px;
+}
 .profile-picture {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 20px;
 }
 
@@ -27,7 +40,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .channel-picture {
@@ -47,4 +60,11 @@
 
 .video-author {
   margin-bottom: 4px;
+}
+
+/*Links*/
+
+.video-title-link {
+  text-decoration: none;
+  color: black;
 }

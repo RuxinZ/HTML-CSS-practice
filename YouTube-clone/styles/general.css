@@ -5,9 +5,11 @@ p {
 }
 
 body {
+  height: 3000px;
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
   background-color: rgba(0, 0, 0, 0.03);
 }
 

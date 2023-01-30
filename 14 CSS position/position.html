@@ -14,6 +14,7 @@
         left: 0;
         right: 0;
         height: 50px;
+        z-index: 100;
       "
     >
       header
@@ -30,7 +31,33 @@
         width: 60px;
       "
     >
-      side bar
+      <!-- An absolute element inside a fixed element is going to have all measurements relative to the fixed element-->
+      sidebar
+      <div
+        class="absolute"
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 5px;
+          right: 5px;
+        "
+      >
+        X
+      </div>
+    </div>
+
+    <div
+      class="absolute"
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+      "
+    >
+      absolute
     </div>
 
     <div
@@ -43,6 +70,27 @@
     >
       div 1
     </div>
-    <div style="background: lightpink; height: 200px; width: 200px">div 2</div>
+    <div
+      style="
+        background: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      div 2
+      <div
+        class="absolute"
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          bottom: 5px;
+          right: 5px;
+        "
+      >
+        10:00
+      </div>
+    </div>
   </body>
 </html>
