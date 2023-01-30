@@ -1,8 +1,26 @@
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
+}
+
+/*Responsive Design*/
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1200px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .thumbnail-row {
@@ -21,7 +39,6 @@
   color: white;
   font-size: 12px;
   font-weight: 500;
-  font-family: Roboto, Arial;
   padding: 4px;
   border-radius: 2px;
 }
