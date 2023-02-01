@@ -1,0 +1,28 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  color: rgb(112, 117, 122);
+  flex-shrink: 0;
+  padding: 12px 8px;
+  white-space: nowrap;
+}
+
+/* @media */
+
+.footer-link {
+  text-decoration: none;
+  color: rgb(112, 117, 122);
+  padding: 15px;
+}
+
+.carbon-logo {
+  height: 14px;
+  margin-right: 6px;
+}

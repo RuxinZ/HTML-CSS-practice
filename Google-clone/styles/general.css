@@ -1,0 +1,11 @@
+body {
+  font-family: roboto, Arial;
+  background-color: white;
+  color: #202124;
+  min-width: 500px;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,125 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  width: 200px;
+  display: flex;
+}
+
+.header-left a {
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(32, 33, 36);
+}
+
+#about {
+  margin-left: 15px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-r-col1 {
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-r-col1 a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87);
+}
+
+#left-pad-15 {
+  padding-left: 15px;
+}
+
+.header-r-col2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6px;
+  margin-right: 1px;
+}
+
+.apps {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.apps:hover {
+  background-color: rgba(241, 233, 233, 0.8);
+  border-radius: 50%;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(95, 99, 104);
+  margin: 1px;
+}
+
+.user-img-col {
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px 0 8px;
+}
+
+.current-user-pic {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.user-img-col {
+  position: relative;
+}
+
+.user-card {
+  position: absolute;
+  right: -10px;
+  bottom: -70px;
+
+  background-color: rgb(85, 85, 85);
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 4px 8px;
+  margin: 0;
+  color: rgb(197, 194, 194);
+  font-size: 13px;
+}
+
+.current-user-pic:hover {
+  box-shadow: 0 0 0 4px rgba(238, 238, 238, 0.85);
+}
+
+.user-img-col:hover .user-card {
+  opacity: 1;
+}
+
+#google-account {
+  color: white;
+}
