@@ -1,0 +1,58 @@
+body {
+  font-family: arial;
+  text-align: start; /*align text based on writing direction*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: lightgoldenrodyellow;
+  margin-block-end: 3vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  width: 70%;
+  max-width: 60ch;
+  margin-inline: auto; /* auto center the content */
+}
+
+section {
+  inline-size: 400px; /* seting the width of the section based on writing direction*/
+}
+
+section {
+  position: relative;
+  border: 5px solid red;
+  margin-block-end: 1em;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  opacity: 0.1;
+  inset: 3em; /*inset*/
+}
+
+h2 {
+  border-inline-start: 5px solid red;
+  padding-inline-start: 0.5rem;
+  border-inline-end: 5px solid blue;
+  padding-inline-end: 0.5rem;
+  border-block: 5px solid orange;
+}
+
+#text3 {
+  writing-mode: vertical-rl;
+  max-height: 25vh;
+}
