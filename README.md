@@ -1,6 +1,6 @@
 # HTML_CSS_practices
 
-These are mini projects I've done to practice using HTML and CSS.
+Courses and projects I've completed to practice using HTML and CSS.
 
 ## Table of contents
 
@@ -15,7 +15,7 @@ These are mini projects I've done to practice using HTML and CSS.
 6.5-hour Youtube [tutorial](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev with exercises to practice the HTML & CSS basics.
 
 Difficulty: :star::star: <br>
-Usefulnes: :star::star: <br>
+Usefulness: :star::star: <br>
 
 ### [YouTube clone](./YouTube-clone/)
 
@@ -32,7 +32,7 @@ Kevin Powell's [tutorial](https://www.youtube.com/watch?v=3K6zr1CdZy8&t=0s) for 
 Practice building a responsive website.
 
 Difficulty: :star::star::star::star: <br>
-Usefulnes: :star::star::star::star: <br>
+Usefulness: :star::star::star::star: <br>
 
 ## [Conquering Responsive Layouts](./responsive-layouts/)
 
