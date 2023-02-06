@@ -17,13 +17,14 @@ These are mini projects I've done to practice using HTML and CSS.
 Difficulty: :star::star: <br>
 Usefulnes: :star::star: <br>
 
-## [YouTube clone](./YouTube-clone/)
+### [YouTube clone](./YouTube-clone/)
 
-Final project for the [HTML & CSS Full Course](https://www.youtube.com/watch?v=G3e-cpL7ofc).
+Final project for the [HTML & CSS Foundamentals Course](https://www.youtube.com/watch?v=G3e-cpL7ofc).
 
 ## [Google clone](./Google-clone/)
 
-Clone the [Google landing page](https://www.google.com/).
+Project for CodeSmith Precourse. <br>
+Clone the [Google landing page](https://www.google.com/) using pure HTML and CSS.
 
 ## [FEM Manage Landing Page](./fem-manage-landing-page/)
 
