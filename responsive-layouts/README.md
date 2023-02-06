@@ -1,8 +1,8 @@
-# conquering-responsive-layouts
+# Conquering Responsive Layouts
 
 A 21-day [course](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) by Kevin Powell
 
-## `Day 1 | Use Percentages & avoid heights`
+## Day 1 | Use Percentages & avoid heights
 
 ### Notes-01
 
