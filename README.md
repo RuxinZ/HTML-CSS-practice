@@ -10,9 +10,11 @@ These are mini projects I've done to practice using HTML and CSS.
 - [FEM Manage Landing Page](#fem-manage-landing-page)
 - [Conquering Responsive Layouts](#conquering-responsive-layouts)
 
-## [HTML & CSS Foundamentals](./HTML-CSS-Foundamentals/)
+## [HTML & CSS Foundamentals - Beginner to Pro](./HTML-CSS-Foundamentals/)
 
-Exercises from the [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev.
+6.5-hour Youtube [tutorial](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev with exercises to practice the HTML & CSS basics.
+
+:star:
 
 ## [YouTube clone](./YouTube-clone/)
 
