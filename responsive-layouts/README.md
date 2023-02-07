@@ -1,6 +1,20 @@
 # Conquering Responsive Layouts
 
-A 21-day [course](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) by Kevin Powell
+## Course Summary
+
+In February 2023, I followed the course [Conquering Responsive Layouts](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) by Kevin Powell. This is a 21-day course with daily challenges to learn how to create responsive websites, and it's aimed at beginners. The course consists of small videos on the course website, and challenges to help you solidify what you have learned.
+
+The course is the course is set up in a way that prevents you from just binge-watching and forgetting everything later. Course content is revealed on a 24-hour interval and solutions are not provided immidiately. You will get a daily email reminder when new course content is unlocked.
+
+The quality of the content is great, and the challenges make sure you understand and practice what you have learned during the video lectures.
+
+Overall, if you're looking to learn responsive web design, this course is definitely worth checking out!
+
+## Table of contents
+
+- [Day 1 Use percentages & avoid heights](#day-1--use-percentages--avoid-heights)
+- [Day 2 Get Familiar with relative units](#day-2--get-familiar-with-relative-units)
+- [Day 3 Enter max-width](#day-3--enter-max-width)
 
 ## Day 1 | Use percentages & avoid heights
 
@@ -20,3 +34,22 @@ Change the starter files so that:
 
 - Text only comes to midpoint of the page
 - Text does not overflow on bottom on smaller screens
+
+## Day 2 | Get Familiar with relative units
+
+### Notes-02 - `em` vs `rem`
+
+- `em` - a CSS unit relative to the font size of the **parent element**.
+  - when used to set spacing, 1em is equal to the font-size of the element itself.
+- `rem` - a CSS unit relative to the font size of an **html(root) element**.
+  - use rem for font-size
+- for _consistent spacing_, use `rem` for padding/margin.
+- if you want your padding to adjust based on the element's font-size, for example for a button, use `rem` for the font-size and `em` for padding.
+
+## Day 3 | Enter max-width
+
+### [Challenge-02](./challenge-02/)
+
+- At the moment the text goes from left to right across the whole page --> align text on left with text from the header.
+- Blue part of the header should span the entire width of the page.
+- Page should be responsive.
