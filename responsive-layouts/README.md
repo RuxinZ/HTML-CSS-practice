@@ -2,9 +2,9 @@
 
 ## Course Summary
 
-In February 2023, I followed the course [Conquering Responsive Layouts](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) by Kevin Powell. This is a 21-day course with daily challenges to learn how to create responsive websites, and it's aimed at beginners. The course consists of small videos on the course website, and challenges to help you solidify what you have learned.
+In February 2023, I followed the course [Conquering Responsive Layouts](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) by Kevin Powell. This is a 21-day course with daily challenges to learn how to create responsive websites, and it's aimed at beginners. The course consists of short videos, and challenges to help you solidify what you have learned.
 
-The course is the course is set up in a way that prevents you from just binge-watching and forgetting everything later. Course content is revealed on a 24-hour interval and solutions are not provided immidiately. You will get a daily email reminder when new course content is unlocked.
+The course is set up in a way that prevents you from just binge-watching and forgetting everything later. Course content is revealed on a 24-hour interval and solutions are not provided immidiately. You will get a daily email reminder when new course content is unlocked.
 
 The quality of the content is great, and the challenges make sure you understand and practice what you have learned during the video lectures.
 
@@ -36,6 +36,8 @@ Change the starter files so that:
 - Text does not overflow on bottom on smaller screens
 
 ## Day 2 | Get Familiar with relative units
+
+No challenge today.
 
 ### Notes-02 - `em` vs `rem`
 
