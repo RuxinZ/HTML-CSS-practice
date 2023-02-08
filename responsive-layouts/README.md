@@ -52,6 +52,6 @@ No challenge today.
 
 ### [Challenge-02](./challenge-02/)
 
-- At the moment the text goes from left to right across the whole page --> align text on left with text from the header.
-- Blue part of the header should span the entire width of the page.
-- Page should be responsive.
+- At the moment the text goes from left to right across the whole page --> align text of the header and body on the left.
+- Background color of the header should span the entire width of the page.
+- The width of text for both the header and body should stop to increase after reaching a certain point.
