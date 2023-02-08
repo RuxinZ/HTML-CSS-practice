@@ -35,7 +35,7 @@ Change the starter files so that:
 - Text only comes to midpoint of the page
 - Text does not overflow on bottom on smaller screens
 
-## Day 2 | Get Familiar with relative units
+## Day 2 | Get familiar with relative units
 
 No challenge today.
 
@@ -50,8 +50,14 @@ No challenge today.
 
 ## Day 3 | Enter max-width
 
+### Notes-03
+
+Set a `max-width` with a fixed px value for text contents so that they do not expand too wide on the screen.
+
 ### [Challenge-02](./challenge-02/)
 
 - At the moment the text goes from left to right across the whole page --> align text of the header and body on the left.
 - Background color of the header should span the entire width of the page.
 - The width of text for both the header and body should stop to increase after reaching a certain point.
+
+## Day 4 | Extra curricular activities
