@@ -24,19 +24,17 @@ body {
 }
 
 .container {
+  width: 80%;
+  max-width: 750px;
   margin: 0 auto;
-  background: #23424a;
-  color: white;
-  padding: 50px 20%;
 }
 
 .intro-content {
-  width: min(50%, 400px);
+  width: 50%;
 }
 
-main {
-  padding-inline: 20%;
-}
-.main-body {
-  width: min(100%, 800px);
+.intro {
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
 }

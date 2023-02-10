@@ -61,3 +61,11 @@ Set a `max-width` with a fixed px value for text contents so that they do not ex
 - The width of text for both the header and body should stop to increase after reaching a certain point.
 
 ## Day 4 | Extra curricular activities
+
+## Day 5 Practice time!
+
+### [Challenge-03](./challenge-03/)
+
+There's no starting files for this challenge. Build a webpage with a heading, paragraph, button and background as shown in the example.</br>
+</br>
+<img src="./challenge-03/design-specs.png " width="500" >
