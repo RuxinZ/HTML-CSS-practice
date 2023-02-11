@@ -68,4 +68,4 @@ Set a `max-width` with a fixed px value for text contents so that they do not ex
 
 There's no starting files for this challenge. Build a webpage with a heading, paragraph, button and background as shown in the example.</br>
 </br>
-<img src="./challenge-03/design-specs.png " width="500" >
+<img src="./challenge-03/design-specs.png " width="600" >
