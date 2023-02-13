@@ -15,6 +15,10 @@ Overall, if you're looking to learn responsive web design, this course is defini
 - [Day 1 Use percentages & avoid heights](#day-1--use-percentages--avoid-heights)
 - [Day 2 Get Familiar with relative units](#day-2--get-familiar-with-relative-units)
 - [Day 3 Enter max-width](#day-3--enter-max-width)
+- [Day 5 Practice Time](#day-5-practice-time)
+- [Day 6 Review](#day-6-review)
+- [Day 7 Solution to Challenge 3](#day-7-solution-to-challenge-3)
+- [Day 8 Flexbox Basics](#day-8-flexbox-basics)
 
 ## Day 1 | Use percentages & avoid heights
 
@@ -69,3 +73,43 @@ Set a `max-width` with a fixed px value for text contents so that they do not ex
 There's no starting files for this challenge. Build a webpage with a heading, paragraph, button and background as shown in the example.</br>
 </br>
 <img src="./challenge-03/design-specs.png " width="600" >
+
+## Day 6 Review
+
+### Note-06
+
+In this first week, we've looked at:
+
+- Using percentages for widths
+- Avoiding to set heights
+- Using max-width
+
+## Day 7 Solution to challenge #3
+
+### Note-07
+
+- Remember to do CSS reset
+- use `margin-inline:auto` to center container
+- Default display for button elements if inline-block
+- **BEM naming convention in CSS** - Block Element Modifier
+  - blockName -> a block itself
+  - blockName\_\_itemName -> An element inside the block
+  - blockName--modifierName -> modifies the block itself
+
+## Day 8 Flexbox Basics
+
+### Note-08
+
+- `flex-direction` is `row` by default.
+- `display:flex` turns the element into a flex container. And the items within it are flex items.
+- **flex-items** by default want to be as small as they possibly can be.
+- Two different ways to create space in between columns:
+  - use `gap` (currently only supported by Firefox)
+  - use **Combinator** and `margin-inline-start`
+  ```
+  .col + .col {
+    margin-inline-start: : 1rem;
+  }
+  ```
+
+### Flexbox challenge #1
