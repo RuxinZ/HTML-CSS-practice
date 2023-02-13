@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap Forms</title>
+  </head>
+  <body>
+    <form>
+      <!-- form-control -->
+      <label for="email" class="form-label">Email</label>
+      <input type="email" id="email" class="form-control" />
+      <button>Submit</button>
+
+      <!-- select -->
+      <select class="form-select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+
+      <!-- checkbox -->
+      <div class="form-check form-check-inline">
+        <input type="checkbox" id="sent" class="form-check-input" />
+        <label for="sent" class="form-check-label">Sent</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="checkbox" id="read" class="form-check-input" />
+        <label for="read" class="form-check-label">Read</label>
+      </div>
+
+      <!-- input-group -->
+      <label for="pay">Pay</label>
+      <div class="input-group">
+        <div class="input-group-text">$</div>
+        <input type="number" id="pay" class="form-control" />
+        <div class="input-group-text">.00</div>
+      </div>
+
+      <label for="pay">Pay</label>
+      <div class="input-group">
+        <div class="input-group-text">$</div>
+        <input type="number" id="pay" class="form-control" />
+        <button class="btn btn-primary">+</button>
+      </div>
+
+      <!-- floating labels -->
+      <div class="form-floating">
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          placeholder="Input your email"
+        />
+        <label for="email">Email</label>
+        <button>Submit</button>
+      </div>
+    </form>
+
+    <form novalidate>
+      <div class="form-floating">
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          placeholder="Input your email"
+          required
+        />
+        <label for="email">Email</label>
+        <div class="invalid-feedback">Invalid Email</div>
+        <div class="valid-feedback">Valid Email</div>
+        <button>Submit</button>
+      </div>
+    </form>
+
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        if (!form.checkValidity()) {
+          e.preventDefault();
+        }
+        form.classList.add("was-validated");
+      });
+    </script>
+  </body>
+</html>
