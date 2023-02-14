@@ -19,6 +19,7 @@ Overall, if you're looking to learn responsive web design, this course is defini
 - [Day 6 Review](#day-6-review)
 - [Day 7 Solution to Challenge 3](#day-7-solution-to-challenge-3)
 - [Day 8 Flexbox Basics](#day-8-flexbox-basics)
+- [Day 9 A deeper dive into flexbox](#day-9-a-deeper-dive-into-flexbox)
 
 ## Day 1 | Use percentages & avoid heights
 
@@ -112,4 +113,36 @@ In this first week, we've looked at:
   }
   ```
 
-### Flexbox challenge #1
+### [Flexbox challenge #1](./flexbox-challenge-01/)
+
+1. Make a two-column section.
+2. Change the heading color in the middle section
+3. center the text and add gaps in between columns
+
+## Day 9 A deeper dive into flexbox
+
+### Note-09
+
+- Use a div container for setting background-color, color, and padding. Within it use a `container` to set the width, max-width, margin-inline(center the text)
+- Use different classes for `container` and flexbox `row` to keep them seperate.
+- If the text only takes up a certain percentage width of the container, nest another container within it for that.
+- Create resuable classes.<br>
+
+**Adding image**
+
+- In a flexbox row, by default all column contents are stretched/shrinked to fit the height of the row. To add an image in the same row with text and avoid streching:
+  - Solution 1. Use a div to wrap the image.
+  - Solution 2. Give the image a class and add `align-self: flex-start`.<br>
+
+**Column Width and Flexbox**
+
+- `justify-content`
+  - alignment for x axis.
+  - flexbox by default has `flex-start`.
+  - `space-between` takes all spaces and put them in between items
+
+**Ensuring the image is responsive**
+
+- If we used a div to wrap the image in a flexbox. The image itself is not a flex-item anymore. At certain large screen sizes, it might overflow/side-scroll. To solve that, when starting a CSS file, always set `img` to `max-width:100%`.
+
+### [Flexbox challenge #2](./flexbox-challenge-02/)

@@ -1,0 +1,97 @@
+/* 
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+1. Refer to the design specs for the
+   overall layout 
+2. The image should line up with
+   the sidebar in the section
+   below
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+  justify-self: flex-start;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+.col-left {
+  width: 60%;
+}
+
+.col-right {
+  width: 40%;
+}
+
+.main-section {
+  margin-top: 2rem;
+}
+
+.vflex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.col-accent {
+  background-color: #136c72;
+  color: #fff;
+}
