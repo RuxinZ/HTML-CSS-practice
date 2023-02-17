@@ -20,6 +20,7 @@ Overall, if you're looking to learn responsive web design, this course is defini
 - [Day 7 Solution to Challenge 3](#day-7-solution-to-challenge-3)
 - [Day 8 Flexbox Basics](#day-8-flexbox-basics)
 - [Day 9 A deeper dive into flexbox](#day-9-a-deeper-dive-into-flexbox)
+- [Day 11 Using flexbox for a navigation](#day-11-using-flexbox-for-a-navigation)
 
 ## Day 1 | Use percentages & avoid heights
 
@@ -146,3 +147,19 @@ In this first week, we've looked at:
 - If we used a div to wrap the image in a flexbox. The image itself is not a flex-item anymore. At certain large screen sizes, it might overflow/side-scroll. To solve that, when starting a CSS file, always set `img` to `max-width:100%`.
 
 ### [Flexbox challenge #2](./flexbox-challenge-02/)
+
+## Day 11 Using flexbox for a navigation
+
+### Note-11
+
+- In CSS, try to select by class instead of element, except for very generic styling.
+- Use semantic elements when possible: `<aside>` for sidebar, `<article>`, etc.
+- With the width of columns inside a flexbox row sum up to less than 100% and justify-content on the row set to space-between, it's going to create than gap between the columns automatically.
+- When we make something display flex, it's going to try to shrink down to its smallest possible size.
+- use `white-space: nowrap;` to prevent text from wrapping when the screen size gets smaller.
+
+### [Flexbox challenge #3](./flexbox-challenge-03/)
+
+Create a header navigation bar
+
+## Day 12 Getting fancy with navigations
