@@ -163,3 +163,14 @@ In this first week, we've looked at:
 Create a header navigation bar
 
 ## Day 12 Getting fancy with navigations
+
+### Note-12
+
+- **2 Ways to push some of the items in a navbar to the right:**
+  1. Add a class to the first item to be pushed to the right. Set margin-left to auto -> push it all the way to the right
+  2. Use 2 nav lists, use flexbox and justify-content: space-between on their parient nav class.
+- **Alignment in flexbox:**
+  - `justify content` - main axis; `align-items` - cross axis.
+- **Adding Logo in header**
+  - DO NOT put logo in the nav list if there is a "home" in nav list. It's redundant.
+  - Set width of nav class to 100% so that it will try to stretech to fit the width as much as it can (pushing the left part to the logo).
