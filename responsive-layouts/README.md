@@ -172,5 +172,5 @@ Create a header navigation bar
 - **Alignment in flexbox:**
   - `justify content` - main axis; `align-items` - cross axis.
 - **Adding Logo in header**
-  - DO NOT put logo in the nav list if there is a "home" in nav list. It's redundant.
-  - Set width of nav class to 100% so that it will try to stretech to fit the width as much as it can (pushing the left part to the logo).
+  - DO NOT put logo in the nav list if there is a "home" in nav list. It's redundant for screen reader.
+  - Set width of nav class to 100% so that it will try to stretch to fit the width as much as it can (pushing the left part to the logo).
