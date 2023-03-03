@@ -258,3 +258,7 @@ HTML
     - set the min-height of a blackground-color div to 100vh (use display flex and align items to align text) so that it covers the whole page
 
 ## Day 19 Mobile navigation challenge
+
+### Notes
+
+- Links by default at in-line elements. So adding margin, padding on them won't have any effect.
