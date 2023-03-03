@@ -21,6 +21,12 @@ Overall, if you're looking to learn responsive web design, this course is defini
 - [Day 8 Flexbox Basics](#day-8-flexbox-basics)
 - [Day 9 A deeper dive into flexbox](#day-9-a-deeper-dive-into-flexbox)
 - [Day 11 Using flexbox for a navigation](#day-11-using-flexbox-for-a-navigation)
+- [Day 12 Getting fancy with navigations](#day-12-getting-fancy-with-navigations)
+- [Day 15 Media queries](#day-15-media-queries)
+- [Day 16 What breakpoints to use](#day-16-what-breakpoints-to-use)
+- [Day 17 The meta viewpoint tag](#day-17-the-meta-viewport-tag)
+- [Day 18 Mobile first](#day-18-challenge-solution--mobile-first)
+- [Day 19 Mobile navigation challenge](#day-19-mobile-navigation-challenge)
 
 ## Day 1 | Use percentages & avoid heights
 
@@ -172,5 +178,83 @@ Create a header navigation bar
 - **Alignment in flexbox:**
   - `justify content` - main axis; `align-items` - cross axis.
 - **Adding Logo in header**
-  - DO NOT put logo in the nav list if there is a "home" in nav list. It's redundant for screen reader.
+  - <span style="text-decoration:underline">DO NOT put logo in the nav list</span> if there is a "home" in nav list. It's redundant for screen reader.
   - Set width of nav class to 100% so that it will try to stretch to fit the width as much as it can (pushing the left part to the logo).
+- **Class Names** <br>
+  Remember:
+  - blockName -> a block itself
+  - blockName\_\_itemName -> An element inside the block
+  - blockName--modifierName -> modifies the block itself
+- **Easy way to center item** <br>
+  `margin-inline: auto`
+
+## Day 15 Media queries
+
+### Note-15
+
+**`@media`**
+
+- Usually dont need to specify media type until if you are targeting a specific type.
+- can combine media queries using the and keyword.
+- Order matters. when using `min-width`, go from smallest value to larger. `max-width` is the opposite.
+- Can only overwrite properties that are specified in the {} of the media queiry.
+  ```
+  media (min-width:600px) and (max-width:900px) {}
+  ```
+- **desktop-first** approach: default is set for large screen
+- **mobile-frst** approach: default is set for small screen.
+
+## Day 16 What breakpoints to use?
+
+### Note-16
+
+- Break point - at what point does the current design not work any more? Do I need to fix it using @media. Do not try to target specific devices as there are too many. Try to use the break points only when it's necessary.
+- [Article](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/) about breakpoints
+
+## Day 17 The meta viewport tag
+
+### Note-17
+
+- This tag makes sure the media queries work properly.
+  `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`
+
+## Day 18 Challenge Solution & Mobile first
+
+### Notes
+
+HTML
+
+- HTML: When approaching a project. Look at the large screen design to determine the HTML elements.
+- CSS: When writing the CSS start with a mobile first approach.
+
+  - To start, set the basics
+
+    ```
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    body {
+    margin: 0;
+      font-family: ;
+      font-size: ;
+      line-height: 1.6; /*Start with a bigger spacing */
+      color: ;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    ```
+
+  - Start with topography (font size/weight for headings)
+  - Get the basics done before worrying about the layout
+    - background color, color, text-align, spacing
+  - Layout for large screen
+    - Don't have lines that go across the whole page. Set a `max-width` on text containers
+  - **`min-height`**
+    - set the min-height of a blackground-color div to 100vh (use display flex and align items to align text) so that it covers the whole page
+
+## Day 19 Mobile navigation challenge

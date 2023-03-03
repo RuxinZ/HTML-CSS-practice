@@ -10,10 +10,6 @@ body {
   font-size: 1.3rem;
 }
 
-img {
-  max-width: 100%;
-}
-
 h1 {
   font-size: 3rem;
   margin-top: 0;
@@ -48,8 +44,9 @@ h1 {
 .row {
   display: flex;
   justify-content: space-between;
+}
+.row--header {
   align-items: center;
-  border: 2px solid white;
 }
 
 .col {
@@ -67,8 +64,7 @@ header {
 }
 
 .logo {
-  border: 2px solid red;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 .nav {
   display: flex;
@@ -81,7 +77,11 @@ header {
   margin: 0;
   padding: 0.5rem 0;
   list-style: none;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+}
+
+.nav__list--primary {
+  margin-inline: auto;
 }
 
 .nav__item + .nav__item {
@@ -121,6 +121,7 @@ header {
 .hero__img {
   width: 32%;
   align-self: flex-start;
+  max-width: 100%;
 }
 
 .hero p {
@@ -141,4 +142,23 @@ header {
   text-align: center;
   color: #fff;
   background-color: #136c72;
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+  }
+  .nav__list--primary,
+  .nav__list--secondary {
+    display: none;
+  }
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+  .hero__text {
+    margin-bottom: 1.5rem;
+  }
 }
